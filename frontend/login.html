@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Login Dashboard</h1>
+        <nav>
+            <!-- <a href="create_course.html" class="btn">Create New Course</a> -->
+            <a href="index.html " class="btn">Home</a>
+            <a href="register.html" class="btn">Signup</a>
+            <a href="login.html" class="btn">Login</a>
+            <!-- <a class="btn"id="logout-button" onclick="handleLogout()">Logout</a> -->
+        </nav>
+    </header>
+    <div class="auth-container">
+        <p class="pdf-link">
+            User All Credentials <a href="https://docs.google.com/document/d/16hfJ850M-t8NwgWA-_3jwCvius5IN_SZ5yvXXXA47zo/edit?usp=sharing" target="_blank">PDF document here</a>.
+        </p>
+        <h2>Login</h2>
+        <form id="login-form">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" class="btn">Login</button>
+        </form>
+        <p>Don't have an account? <a href="register.html">Register here</a></p>
+        
+    </div>
+    <hr>
+    <footer id="footer" class="footer">
+        
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">About Us</h3>
+                    <p>Learn anytime, anywhere with our flexible online courses. Enhance your skills with expert instruction and interactive content.</p>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="#about-us-section">About</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#blog-section">Blog</a></li>
+                        <!-- <li><a href="#contact-us-section">Contact</a></li> -->
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Contact Us</h3>
+                    <ul class="footer-contact">
+                        <li><i class="fa fa-envelope"></i> mahmudulabin@gmail.com</li>
+                        <li><i class="fa fa-phone"></i> +880 1780946249</li>
+                        <li><i class="fa fa-map-marker"></i> Dinajpur,5200,Dhaka</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Follow Us</h3>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/?lang=en" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/feed/" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright &copy; 2024 LearnNest. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="auth.js"></script>
+</body>
+</html>
+
+
